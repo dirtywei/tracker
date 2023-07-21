@@ -1,4 +1,4 @@
-import { DefaultOptions, Options, TrackerConfig, reportTrackerData } from './types/core'
+import { DefaultOptions, Options, TrackerConfig, reportTrackerData } from './types'
 import { createHistoryEvent } from './utils/pv'
 
 const MouseEventList: string[] = [

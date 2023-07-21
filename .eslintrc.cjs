@@ -12,6 +12,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'no-unused-vars': 'off',
     'no-undef': 0, //不能有未定义的变量
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
